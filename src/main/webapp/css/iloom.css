@@ -99,11 +99,17 @@ margin: 0 auto;
 	display: flex;
 	column-gap: 1em;
 }
-.promotion-list {
+.promotion-list img{
+	overflow: hidden;
 	object-fit :cover;
 	max-width: 100%;
 }
-
+.promotion-list li{
+	overflow: hidden;	
+}
+.promotion-list li:hover img{
+	transform :scale(1.02, 1.05)	
+}
 
 
 
