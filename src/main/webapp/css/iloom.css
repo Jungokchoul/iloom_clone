@@ -28,7 +28,8 @@ a, a:link {
 }
 /* ============= bxslider style custom =============== */
 .bx-wrapper {
-	border: 0
+	border: 0;
+	margin-top: 60px;
 }
 
 
@@ -36,8 +37,16 @@ a, a:link {
 
 
 
-
 /* ============= header =============== */
+header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	z-index: 10000;
+	background: witle;
+}
+
 .header-wrap {
 	max-width: 90%;
 	height: 60px;
