@@ -26,6 +26,16 @@ a, a:link {
 	text-decoration: none;
 	color: var(--base-text-color);
 }
+/* ============= bxslider style custom =============== */
+.bx-wrapper {
+	border: 0
+}
+
+
+
+
+
+
 
 /* ============= header =============== */
 .header-wrap {
@@ -41,6 +51,6 @@ a, a:link {
 	column-gap: 1rem;
 }
 
-#imgs img {
-	position: absolute;
-}
+ #imgs images {
+width: 1920px;
+	}
