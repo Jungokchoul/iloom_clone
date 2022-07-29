@@ -79,12 +79,12 @@ header {
 	margin: 1em 0;
 	font-size: .875em;
 }
-.price {
+.price  {
 	color: #ff4040;
 	font-size: .720em;
 }
 /* ============== promotion ================== */
-.promotion {
+.promotion  {
 	max-width: 1280px;
 	margin: 2em auto;
 	overflow: hidden;
@@ -131,7 +131,7 @@ header {
 	margin-left: 5em;
 }
 
-.special-list ,sns-title{
+.special-list {
 	max-width: 1280px;
 	margin: 100px auto 50px;
 	display: grid;
@@ -164,5 +164,80 @@ header {
     display: -webkit-box;   /* vendor prefix : 표준 속성이 아닐때, 다른 브라우저가 지원할수 있는 접두어 추가 */
     -webkit-line-clamp: 2; /* 원하는 라인수 */
     -webkit-box-orient: vertical
-
 }
+.ltem-image {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;;
+	overflow: hidden;
+}
+.like-item::after {
+	content: '';
+	color: red;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../images/icon_likeHrt.svg");
+}
+.item-title {
+	text-overflow: ellipsis;
+	white-space: normal;
+	width: 5em;;
+	overflow: hidden;
+	font-weight: bold;
+}
+.item-location , .item-price{
+	font-size: .725em;;	
+	color: gray;
+}
+.buy-item{
+	display: flex;
+	justify-content: space-between;
+}
+aside {
+	background: #e0e0e0;
+}
+.sns {
+	max-width: 1280px;
+	margin:  0 auto;
+}
+.sns p {
+	text-align: center;
+}
+.sns p:nth-child(1) {
+	font-size: 1.750em;
+}
+.sns p:nth-child(2) {
+	font-size: 1.250em;
+}
+.sns-posts {
+	display: flex; /* display: grid */	
+}
+.sns-posts img {
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
